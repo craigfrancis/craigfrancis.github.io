@@ -1,4 +1,3 @@
-
 ;(function(document, window, undefined) {
 
 	'use strict';
@@ -10,7 +9,9 @@
 	// document.documentElement.classList.add('js_enabled');
 
 	function link_click(e) {
-		console.log('hi');
+		var wrapper = document.createElement('span');
+		wrapper.textContent = ' :-) ';
+		this.parentNode.appendChild(wrapper);
 		e.preventDefault();
 	}
 
