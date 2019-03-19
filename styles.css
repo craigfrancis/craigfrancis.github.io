@@ -5,7 +5,14 @@ body {
 }
 
 main {
-  min-width: 50em;
+  max-width: 50em;
   border: 2px solid yellow;
   margin: 1em auto;
+  padding: 1em;
+}
+
+footer {
+  max-width: 50em;
+  margin: 1em auto;
+  padding: 0;
 }
