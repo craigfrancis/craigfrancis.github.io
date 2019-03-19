@@ -1,0 +1,11 @@
+
+body {
+  background: blue;
+  color: yellow;
+}
+
+main {
+  min-width: 50em;
+  border: 2px solid yellow;
+  margin: 1em auto;
+}
