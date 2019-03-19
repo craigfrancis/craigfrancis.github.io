@@ -1,7 +1,6 @@
-
 body {
-  background: blue;
-  color: yellow;
+  background: Aqua;
+  color: Navy;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 1.4em;
 }
@@ -9,22 +8,23 @@ body {
 main,
 footer {
   max-width: 30em;
-  border: 2px solid yellow;
+  border: 2px solid Navy;
   margin: 1em auto;
   padding: 1em;
 }
 
 footer {
   border: 0;
+  padding: 0;
 }
 
 main a {
-  color: #F55;
+  color: #C00;
   font-weight: bold;
 }
 
 main a:hover,
 main a:active,
 main a:focus {
-  color: #F99
+  color: #F00;
 }
